@@ -1,5 +1,8 @@
-Let's start:  
-<h5>Chapter 1: Understanding the Data</h5>
+# Module 1:
+
+---
+
+## Chapter 1: Understanding the Data
 
 ![CSV File in excel](automobilecsv.png)
 The data set that we are using is the open dataset by Jeffery C Schlimmer on the used car prices. The data is in CSV (comma seperated values) format.
@@ -15,8 +18,9 @@ The second attribute normalized losses shows the average loss on a certain car's
 
 Going down, the last and 26th attribute is the "price". This is our target attribute or "label". our goal will be to analyze all the other car features like symbolings, normalized-losses, fuel-type, etc. and based on them predict the price of a car if certain valued for the attributes are passed.
 
---
-<h5>Chapter 2: Python Packages for Data Science</h5>
+---
+
+## Chapter 2: Python Packages for Data Science
 
 The Python language has a lot of libraries that we can import to use a collection of in-built functions. These functions make the task of analyzing the data very easy with just a few lines of code.  
 
@@ -29,12 +33,25 @@ _These Libraries are classified as:_
 
 **_SciPy_**: It includes functions for mathematical operations like calculus, optimization and visualization.  
 
-**_Chapter 3: Importing and Exporting Data in Python_**
 
-**_Chapter 4: Getting Started_**
+---
 
-**_Chapter 5: Getting Started Analyzing Data in Python_**
+## Chapter 3: Importing and Exporting Data in Python
 
-**_Chapter 6: Accessing Databases with Python_**
+---
 
-**_Chapter 7: This is Summary_**
+## Chapter 4: Getting Started
+
+---
+
+## Chapter 5: Getting Started Analyzing Data in Python
+
+---
+
+## Chapter 6: Accessing Databases with Python
+
+---
+
+## Chapter 7: This is Summary
+
+---
