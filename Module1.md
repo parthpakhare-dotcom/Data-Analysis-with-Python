@@ -31,23 +31,24 @@ _These Libraries are classified as:_
 
 ***Pandas***: Offer essential data structure and tools for effective data manipulation and analysis. Especially used for 2D tables called data frames, Pandas come with easy indexing functionality.  
 
-***NumPy***: It uses arrays for i/ps and o/ps. It can be extended to objects for matrices.  
+- ***NumPy***: It uses arrays for i/ps and o/ps. It can be extended to objects for matrices.  
 
-**_SciPy_**: It includes functions for mathematical operations like calculus, optimization and visualization.  
+- **_SciPy_**: It includes functions for mathematical operations like calculus, optimization and visualization.  
 
-2] **Vizualization** Libraries:- (For visualization)
+2] **Vizualization** Libraries:- (For visualization)  
 These libraries are the best to represent the results of the data to others as they communicate about the data in visuals.  
 
-**_Matplotlib_**: To make highly customizable plots and graphs  
+- **_Matplotlib_**: To make highly customizable plots and graphs  
 
-**_Seaborn_**: Based on Matplotlib, it is a high level visualization library used to generate plots like heat maps, time series and violin plots.  
+- **_Seaborn_**: Based on Matplotlib, it is a high level visualization library used to generate plots like heat maps, time series and violin plots.  
 
-3] **Algorithmic** Libraries:
+3] **Algorithmic** Libraries:  
 These are used to create models based on our data sets using machine learning and make predictions.  
 
-**_Scikit-learn_**: Contains tools for statistical modelling such as regression, classification, clustering, etc. The library is itself built on NumPy, SciPy and Matplotlib.  
+- **_Scikit-learn_**: Contains tools for statistical modelling such as regression, classification, clustering, etc. The library is itself built on NumPy, SciPy and Matplotlib.  
 
-**_Statsmodels_**: Explores data, estimate statistical models, and perform statistical tests.
+- **_Statsmodels_**: Explores data, estimate statistical models, and perform statistical tests.
+![Libraries](Libraries.png)
 
 ---
 
