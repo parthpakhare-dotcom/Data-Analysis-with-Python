@@ -21,7 +21,10 @@ Going down, the last and 26th attribute is the "price". This is our target attri
 
 ---
   
-
+  
+  
+  
+  
 ## 🌟 Chapter 2: Python Packages for Data Science  
 
 The Python language has a lot of libraries that we can import to use a collection of in-built functions. These functions make the task of analyzing the data very easy with just a few lines of code.  
@@ -51,8 +54,12 @@ These are used to create models based on our data sets using machine learning an
 ![Libraries](Libraries.png)
 
 ---
-
-## Chapter 3: Importing and Exporting Data in Python
+  
+  
+  
+  
+  
+## 🌟 Chapter 3: Importing and Exporting Data in Python
 
 Now, we'll see how to read the data using Python's Panda package.
 
@@ -121,8 +128,10 @@ In this way, Pandas support import and export of different file formats like:
 `EXCEL`  
 `SQL`  Eg. `read_sql()` to import and `to_sql()` to export.  
 
-
 ---
+  
+  
+  
 
 ## 🌟 Chapter 4: Getting Started
 
