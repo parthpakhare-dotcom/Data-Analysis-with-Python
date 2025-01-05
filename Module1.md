@@ -1,9 +1,9 @@
-# Module 1:
+# 📚 Module 1:
 
 ---
   
 
-## Chapter 1: Understanding the Data
+## 🌟 Chapter 1: Understanding the Data
 
 ![CSV File in excel](automobilecsv.png)
 The data set that we are using is the open dataset by Jeffery C Schlimmer on the used car prices. The data is in CSV (comma seperated values) format.  
@@ -22,7 +22,7 @@ Going down, the last and 26th attribute is the "price". This is our target attri
 ---
   
 
-## Chapter 2: Python Packages for Data Science  
+## 🌟 Chapter 2: Python Packages for Data Science  
 
 The Python language has a lot of libraries that we can import to use a collection of in-built functions. These functions make the task of analyzing the data very easy with just a few lines of code.  
 
@@ -88,7 +88,7 @@ Now, an important note is that, the read_csv function considers the first line t
 
 Thus, the dataset is read into the 2D table called the data frame succesfully.  
 To test it out, we can print the dataframe by simply writing `df`. But as it may take extra time and resources in some unneeded cases, we can simply print the first n rows as:  
-`df.head(6)`  
+`df.head(50)`  
 ![Head1](image-2.png)
 ![Head2](image-3.png)
 ![Head3](image-4.png)
@@ -124,18 +124,18 @@ In this way, Pandas support import and export of different file formats like:
 
 ---
 
-## Chapter 4: Getting Started
+## 🌟 Chapter 4: Getting Started
 
 ---
 
-## Chapter 5: Getting Started Analyzing Data in Python
+## 🌟 Chapter 5: Getting Started Analyzing Data in Python
 
 ---
 
-## Chapter 6: Accessing Databases with Python
+## 🌟 Chapter 6: Accessing Databases with Python
 
 ---
 
-## Chapter 7: This is Summary
+## 🌟 Chapter 7: This is Summary
 
 ---
