@@ -373,7 +373,19 @@ How would you use the `describe()` method with a data frame `df` to get a statis
 - `df.describe(include=“all”)`
 - `df.describe(include=“summary”)`
 ```
+Answers:  
 
+1. **Question 1**:  
+   **Answer**: Option 4
+
+2. **Question 2**:  
+   **Answer**: Option 2
+
+3. **Question 3**:  
+   **Answer**: Option 2
+
+4. **Question 4**:  
+   **Answer**: Option 3
 
 
 ---
