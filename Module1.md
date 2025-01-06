@@ -252,6 +252,7 @@ Free resources when done using the `close()` method.
 Bonus info:  
 #### Buffers:
 A buffer is a temporary storage area in memory. In database communication, SQL statements are prepared as text strings in a buffer before being sent to the DBMS.
+
 ---
 
 ## 🌟 Lesson Summary
