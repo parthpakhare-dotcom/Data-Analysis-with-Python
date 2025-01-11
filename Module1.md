@@ -7,7 +7,7 @@
 
 ---
 
-## 🌟 [[Chapter 2: Python Packages for Data Science](Chapter2.md)
+## 🌟 [Chapter 2: Python Packages for Data Science](Chapter2.md)
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-## 🌟 [Chapter 5: Accessing Databases in Python](Chapter4.md)
+## 🌟 [Chapter 5: Accessing Databases in Python](Chapter5.md)
 
 ---
 
