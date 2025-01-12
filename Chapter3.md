@@ -3,7 +3,7 @@
 Now, we'll see how to read the data using Python's Panda package.
 
 To read the data using Pandas in Python there are two important factors:  
-_  
+.    
 **1] Format:-**  
 This the format in which the file is encoded. It can usually be identified by the ending of the file name (eg CSV, JSON, HDF, XLSX, etc.).  
 **2] File path:-**  

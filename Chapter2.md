@@ -5,7 +5,7 @@ The Python language has a lot of libraries that we can import to use a collectio
 _These Libraries are classified as:_  
 1] **Scientific Computing** Libraries:- (For calculations)  
 
-***Pandas***: Offer essential data structure and tools for effective data manipulation and analysis. Especially used for 2D tables called data frames, Pandas come with easy indexing functionality.  
+- ***Pandas***: Offer essential data structure and tools for effective data manipulation and analysis. Especially used for 2D tables called data frames, Pandas come with easy indexing functionality.  
 
 - ***NumPy***: It uses arrays for i/ps and o/ps. It can be extended to objects for matrices.  
 
@@ -25,5 +25,4 @@ These are used to create models based on our data sets using machine learning an
 
 - **_Statsmodels_**: Explores data, estimate statistical models, and perform statistical tests.
 ![Libraries](Libraries.png)
-
 ---

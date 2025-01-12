@@ -62,21 +62,22 @@ Here we see an example of a Python application. Steps to use the Python DB API:
 
 2) Establish a connection:  
 Use the `connect()` method to put on a connection with the DBMS. Along with the `databasename` parameter, you may even provide with the authenticaton parameters if the method allows:  
-- `connection=connect('databasename', 'username', 'pswd')  
+- `connection=connect('databasename', 'username', 'pswd')`  
 
 3) Create a cursor object:  
 Use the connection's `cursor()` method.  
-- `cursor = connection.cursor()  
+- `cursor = connection.cursor()`  
 
 4) Now, we execute the queries using the SQL statements and the cursor method `execute()`. Eg:  
-- `cursor.execute('select * from mytable')
+- `cursor.execute('select * from mytable')`
 
 5) Fetch results:  
 Retrieve the query results via cursor methods.  
 - `results = cursor.fetchall()`
 
 6) Close the connection:  
-Free resources when done using the `close()` method.
+Free resources when done using the `close()` method.  
+- `cursor.close()`  
 ...  
 Bonus info:  
 #### Buffers:
