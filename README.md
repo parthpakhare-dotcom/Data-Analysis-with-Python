@@ -10,7 +10,7 @@ This course teaches us how to use the Python libraries, namely, ***NumPy, Pandas
 - Overview of the Python packages
 - Importing the data and analyzing it
 
-**Module 2: Data Wrangling**:-
+[Module 2: Data Wrangling](Module2.md):-
 - Data Wrangling
 - Pre-processing
 - Dealing with Missing values
