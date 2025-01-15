@@ -19,4 +19,4 @@ Here, we need to recorrect the data type to a numeric value, specifically float.
 However, the `astype()` function cannot handle the invalid values (like `NaN`). So use it when you're sure all the values are valid. Else you can just use the general and efficient function `to-numeric` because it has the `errors="coerce"` attribute to handle invalid values:  
 `df["price"] = pd.to_numeric(df["price"], errors="coerce")`
 ![after](image-21.png)  
-See, now the data type is correctly assigned
+See, now the data type is correctly assigned.
