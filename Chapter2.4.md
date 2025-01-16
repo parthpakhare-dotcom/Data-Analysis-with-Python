@@ -1,4 +1,4 @@
-# 🌟 Chapter 4: Data Normalizatio in Python
+# 🌟 Chapter 4: Data Normalization in Python
 Normalization of data is the process of scaling the values of numeric data in a dataset to a specific range or distribution. It is often used to ensure that the data fits within a specific scale, which can improve the performance and stability of machine learning models and algorithms. For eg:  
 In the given range, the length varies from 150-250 but width varies from 50-100. To bring them in the common range is an imporatant part of data preprocessing to make some statistical analysis easier. For eg:  
 | Age | Income   |
@@ -28,7 +28,24 @@ There are many ways to normalize the data. Following are the few ways to do so:-
 
 ## Simple feature scaling using Python:
 
-With Pandas:
-1) Before
+With Pandas:  
+1) Before  
+![length1](image-22.png)  
+2) After using the Pandas `max()` function: `df["length"] = df["length"] / df["length"].max()`  
+![length2](image-23.png)
 
-2) After
+## Min-max in Python:
+
+With Pandas:  
+1) Before  
+![width1](image-24.png)  
+2) After using the Pandas `min()` and `max()` functions: `df["width"] = (df["width"]-df["width"].min()) / (df["width"].max()-df["width"].min())`  
+![width2](image-25.png)
+
+## Z-score in Python:
+
+With Pandas:  
+1) Before  
+![height1](image-26.png)
+2) After using the Pandas' `mean()` and `std()` functions: `df["height"]=df["height"]-df["height"].mean() / df["height"].std()`  
+![height2](image-27.png)
