@@ -17,5 +17,18 @@ Here, age ranges from 0-100, while income ranges from 0-20000 and higher. Income
 ## Methods of normalizing the data:  
 There are many ways to normalize the data. Following are the few ways to do so:-  
 
-### Simple feture scaling:
- x<sub>new</sub>=x<sub>old</sub> / x<sub>max</sub>
+### 1] Simple feture scaling:
+ x<sub>new</sub>=x<sub>old</sub> / x<sub>max</sub>. Thus the older data values will be divided by the max values in the data attributes. The resulting new value ranges from 0 to 1.  
+
+### 2] Min-Max:
+ x<sub>new</sub>=x<sub>old</sub> - x<sub>min</sub> / x<sub>max</sub> - x<sub>min</sub> Thus, we subtract the min value of the data from the data value and then divide the difference by the data range. The resulting new value ranges from 0 to 1.  
+
+### 3] Z- score:
+ x<sub>new</sub>=x<sub>old</sub> - _μ_ / _σ_, where μ is the average of the data and σ is the standard deviation. The resulting value hower around zero and typically range between -3 to +3, however may go a lesser or higher.  
+
+## Simple feature scaling using Python:
+
+With Pandas:
+1) Before
+
+2) After
