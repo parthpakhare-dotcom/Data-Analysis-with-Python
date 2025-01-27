@@ -24,7 +24,7 @@ There are many ways to normalize the data. Following are the few ways to do so:-
  x<sub>new</sub>=x<sub>old</sub> - x<sub>min</sub> / x<sub>max</sub> - x<sub>min</sub> Thus, we subtract the min value of the data from the data value and then divide the difference by the data range. The resulting new value ranges from 0 to 1.  
 
 ### 3] Z- score:
- x<sub>new</sub>=x<sub>old</sub> - _μ_ / _σ_, where μ is the average of the data and σ is the standard deviation. The resulting value hower around zero and typically range between -3 to +3, however may go a lesser or higher.  
+ x<sub>new</sub>=x<sub>old</sub> - _μ_ / _σ_, where μ is the average of the data and σ is the standard deviation. The resulting value hower around zero and typically range between -3 to +3, however may go a bit lesser or higher.  
 
 ## Simple feature scaling using Python:
 
@@ -47,5 +47,5 @@ With Pandas:
 With Pandas:  
 1) Before  
 ![height1](image-26.png)
-2) After using the Pandas' `mean()` and `std()` functions: `df["height"]=(df["height"]-df["height"].mean() ) / df["height"].std()`  
+2) After using the Pandas' `mean()` and `std()` functions: `df["height"]=( df["height"]-df["height"].mean() ) / df["height"].std()`  
 ![height2](image-27.png)

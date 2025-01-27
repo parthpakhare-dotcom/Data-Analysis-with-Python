@@ -22,7 +22,7 @@
 
 ---
 
-## 🌟 [Chapter 6: Binning in Python](Chapter2.6.md)
+## 🌟 [Chapter 6: Turning Categorical variables into Quantitative variables](Chapter2.6.md)
 
 ---
 
