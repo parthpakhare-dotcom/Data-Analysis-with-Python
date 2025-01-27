@@ -14,7 +14,7 @@
 
 ---
   
-## 🌟 [Chapter 4: Data Normalizatio in Python](Chapter2.4.md)
+## 🌟 [Chapter 4: Data Normalization in Python](Chapter2.4.md)
 
 ---
 

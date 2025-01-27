@@ -47,5 +47,5 @@ With Pandas:
 With Pandas:  
 1) Before  
 ![height1](image-26.png)
-2) After using the Pandas' `mean()` and `std()` functions: `df["height"]=df["height"]-df["height"].mean() / df["height"].std()`  
+2) After using the Pandas' `mean()` and `std()` functions: `df["height"]=(df["height"]-df["height"].mean() ) / df["height"].std()`  
 ![height2](image-27.png)
