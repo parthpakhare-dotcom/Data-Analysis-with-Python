@@ -8,7 +8,7 @@ The learning objectives are:
 - Data Binning: Creating bigger categories for a set of numerical values. Useful to compare the groups of data.
 - Will see about categorial variables and converting them to numerical values. Useful to make statistical modelling easier.
 
-Basics of Data Formatting:  
+### Basics of Data Formatting:  
 In Python, we perform operations on a datarame along the columns. Each row of the dataframe represents a sample, i.e. the different "used car" in the database. To access a column, specify its name in the indexing.  
 Eg: Using `df["symboling"]`, we can access the column as  
 ![symbolling](image-11.png)
