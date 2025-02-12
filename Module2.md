@@ -26,7 +26,7 @@
 
 ---
 
-## 🌟 [Lesson Summary](Lesson2Summary.md)
+## 🌟 [Lesson Summary](Chapter2.7.md)
 
 ---
 
