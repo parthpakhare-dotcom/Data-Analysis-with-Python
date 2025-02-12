@@ -15,8 +15,8 @@ Note that it is a series. Thus, we rename the column name with the `index.name` 
 ## Using Box Plots:
 These are the great ways to visualize the numeric data. Following are the main features of the box plots:  
 ![box plot]("https://builtin.com/data-science/boxplot")
-
-- Median: Shows where the middle of the data point is.
+<img src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kdnuggets.com%2F2019%2F11%2Funderstanding-boxplots.html&psig=AOvVaw0fxcp8B4FijT2qjmHIsExS&ust=1739479486916000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDp1pyAv4sDFQAAAAAdAAAAABAE" alt= "box plot">
+- Median: Shows >where the middle of the data point is.
 - Upper Quartile: Shows where the 75th percentile is.
 - Lower Quartile: Shows where the 25th quartile is.
 - Inter-Quartile Range (IQR): The data between the upper and the lower quartile
@@ -29,7 +29,7 @@ Here, the distribution of 4 wheel drive is distinct from the rest while that of 
 ## Using Scatter Plots:
 Numerical data variables that have real values in a certain range are called continous variables. For eg., in our dataset, the `price` variable and the `Engine-size` variable are the coninous values. There can be a possible a relational pattern between them. If there is, engine size can predict the price, right? One good way to visualize this is using scatter plots. Each data value or observation in a scatter plot is represented as a point or dot. The plot shows the relation between two variables: The `predictor` variable and the `target` variable. The `predictor` variable is used to predict the outcome. Thus, we typically set it on the x-axis. In this case, we'll thus set engine size on the x-axis. Similarly, the `target` variable is the one you are going to predict. Thus, it's the outcome. Hence we set it on the y-axis (as f(x)).  
 We're using the Matplotlib `scatter()` function here, taking in `x` and `y` variables.  
-![Before](image-45.png)
+![Before](image-45.png)  
 Here, we label the axes to get the clear understanding in the picture itself.  
-![alt text](image-46.png)
+![alt text](image-46.png)  
 We see that as the engine size goes up, the price of the car also goes up instantly.
