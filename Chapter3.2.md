@@ -14,8 +14,7 @@ Note that it is a series. Thus, we rename the column name with the `index.name` 
 
 ## Using Box Plots:
 These are the great ways to visualize the numeric data. Following are the main features of the box plots:  
-![box plot]("https://builtin.com/data-science/boxplot")
-<img src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kdnuggets.com%2F2019%2F11%2Funderstanding-boxplots.html&psig=AOvVaw0fxcp8B4FijT2qjmHIsExS&ust=1739479486916000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDp1pyAv4sDFQAAAAAdAAAAABAE" alt= "box plot">
+![box plot](image-47.png)
 - Median: Shows >where the middle of the data point is.
 - Upper Quartile: Shows where the 75th percentile is.
 - Lower Quartile: Shows where the 25th quartile is.
