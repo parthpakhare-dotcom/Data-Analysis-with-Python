@@ -16,7 +16,7 @@ This course teaches us how to use the Python libraries, namely, ***NumPy, Pandas
 - Dealing with Missing values
 - Formatting and Normalization of your data
 
-**Module 3: Exploratory Data Analysis**:-
+[Module 3: Exploratory Data Analysis](Module3.md):-
 - Exploratory Data Analysis
 - Descriptive Statistics
 - GroupBy
