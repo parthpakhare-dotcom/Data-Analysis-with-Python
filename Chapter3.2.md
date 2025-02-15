@@ -1,4 +1,4 @@
-# Descriptive Statistics
+# 🌌 Descriptive Statistics
 
 While beginning to analyse the data, before spending your time building complicated models, it's important to first `explore` the data.  
 One way to do so is to calculate some descriptive statistics of your data. The Descriptive Statistics helps to understant the basic features of a dataset and obtain a short summary about the sample and the measures of the data.  

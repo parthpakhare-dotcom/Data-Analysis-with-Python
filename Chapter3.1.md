@@ -1,4 +1,4 @@
-# Exploratory Data Analysis
+# 🌌 Exploratory Data Analysis
 The module primarily focuses on solving the following question:  
 `What are the characteristics that have the most impact on the car price?`  
 We solve this by knowing the Exploratory Data Analysis which is an approach to analyze data in order to:  
