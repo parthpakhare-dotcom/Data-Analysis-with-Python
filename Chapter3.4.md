@@ -131,8 +131,10 @@ These plots are a combination of histograms and the KDE plot. It keeps the equid
 - Displaying the distribution plot without histogram bins:  
 ![then](image-64.png)  
 
-Actually as mentioned above, the `distplot()` function is now depreciated. The why's and how's can be read [here](https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751). Alternatively we can use the `histplot()` function by giving the value of `kde` attribute as true.  
+Actually as mentioned above, the `distplot()` function is now deprecated. The why's and how's can be read [here](https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751). Alternatively we can use the `histplot()` function by giving the value of `kde` attribute as true.  
 ```python
 sns.histplot(dataframe['engine-size'], kde=True)
 ```  
-![newdist](image-65.png)
+![newdist](image-65.png)  
+
+Fin.(+_+)
