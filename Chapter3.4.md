@@ -95,7 +95,7 @@ plt.xticks(rotation=45)
 ```
 ![compare](image-58.png)  
 
-### Regression Plots:  
+### 5] Regression Plots:  
 This plot draws a scatter plot of numeric values along both the axes and also shows the resulting regression line along with a 95% confidence interval by applying the regression model upon it. The x and y parameters can be passed as it is along with the dataframe as the value of the data attribute ordirectly as the dataframe columns.  
 Eg: Laptop weight vs Price:  
 ![weight vs price ](image-59.png)  
@@ -103,5 +103,36 @@ Eg: Laptop weight vs Price:
 Eg2: Laptop Screen Size vs Price:  
 ![alt text](image-60.png)  
 
-### Box Plots:  
-Already explained these in the [Descriptive Statistics](Chapter3.2.md) Click [here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.2.md#using-box-plots) to read it.
+### 6] Box Plots:  
+Already explained these in the [Descriptive Statistics](Chapter3.2.md) Click [here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.2.md#using-box-plots) to read it.  
+
+### 7] Residual Plots:  
+Residuals are the differences between the actual values (observed values) and the predicted values by the regression model. A residual plot plots residuals on the Y-axis and the independent variable (or predicted values) on the X-axis. A residual plot is a graphical representation used in regression analysis to assess the goodness of fit of a model. It helps identify whether the assumptions of linear regression are met. Eg., If the residuals are randomly scattered around zero, the model is a good fit. Or, if the residuals form a U-shape or an inverted U-shape, it indicates a non-linear relationship. A linear model may not be appropriate in that case.  
+Following is the syntax:  
+```python
+sns.residplot(x=df['header_1'], y=df['header_2'])  
+```
+![residualplot](image-61.png)  
+
+### 8] KDE Plot:  
+A KDE (Kernel Density Estimation) Plot is a smoothed histogram that estimates the probability density function (PDF) of a continuous variable. It helps visualize the distribution of data points in a way that removes the randomness of a traditional histogram. Instead of counting the frequency of data points in bins (like a histogram), KDE places a smooth curve over each data point. The result is a continuous density curve that represents where data points are concentrated.  
+Creating a KDE in Python using Seaborn:  
+```python
+import seaborn as sns
+sns.kdeplot(df['header'], color="indigo", fill=True)  #fill attribute fills the curve within the boundaries in the given color's lighter shade  
+```  
+![kdeplot](image-62.png)
+
+### 9] Distribution Plots: 
+These plots are a combination of histograms and the KDE plot. It keeps the equidistant histogram bins in the background as a reference. However, changing the `hist` attribute in the function `sns.distplot()` to `False` can remove the histograms and only the plain KDE is displayed. Obviously, by default, this parameter is `True`.  
+- Displaying the distribution plot:  
+![first](image-63.png)  
+
+- Displaying the distribution plot without histogram bins:  
+![then](image-64.png)  
+
+Actually as mentioned above, the `distplot()` function is now depreciated. The why's and how's can be read [here](https://gist.github.com/mwaskom/de44147ed2974457ad6372750bbe5751). Alternatively we can use the `histplot()` function by giving the value of `kde` attribute as true.  
+```python
+sns.histplot(dataframe['engine-size'], kde=True)
+```  
+![newdist](image-65.png)
