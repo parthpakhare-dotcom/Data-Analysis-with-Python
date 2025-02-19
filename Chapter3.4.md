@@ -93,4 +93,15 @@ plt.title("Average CPU frequency vs Manufacturer")
 plt.xticks(rotation=45)
 
 ```
-![compare](image-58.png)
+![compare](image-58.png)  
+
+### Regression Plots:  
+This plot draws a scatter plot of numeric values along both the axes and also shows the resulting regression line along with a 95% confidence interval by applying the regression model upon it. The x and y parameters can be passed as it is along with the dataframe as the value of the data attribute ordirectly as the dataframe columns.  
+Eg: Laptop weight vs Price:  
+![weight vs price ](image-59.png)  
+
+Eg2: Laptop Screen Size vs Price:  
+![alt text](image-60.png)  
+
+### Box Plots:  
+Already explained these in the [Descriptive Statistics](Chapter3.2.md) Click [here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.2.md#using-box-plots) to read it.
