@@ -59,4 +59,38 @@ plt.show()
 The histogram is typically used to divide the data in a set of bins (either equally in number of bins or ranges) and representing these bins w.r.t. their frequencies of occurance. Here we use the `plt.hist()` method.  
 ![first](image-55.png)  
 Here, the bins were automatically divided from min to max in equal parts. What if I want to set the ranges of the edges myself? Then we first define the custom list ourselves and then set it into the bins attribute.  
-![second](image-56.png)
+![second](image-56.png)  
+
+### 4] Bar Plots:
+The bar plots are great when it comes to visualize the categorical data. Here, the values on the Y-axis is actually the average frequency of a row's particular category (i.e. column value) w.rt. the category name given along the x-axis. There can be two major types of bar plots:  
+
+- 1) Displaying one's own categories' frequencies:  
+
+We make a panda series that stores the values as the respective category's count in the column.  
+```python  
+category_counts=df['Manufacturer'].values_count()
+
+plt.bar(category_counts.index, category_counts.values, color='greenyellow', width=0.6)
+
+plt.xlabel('Manufacturer')
+plt.ylabel('Number of Laptops')
+plt.title("Number of laptops per manufacturer")
+plt.xticks(rotation=45)  #Rotating x-axis titles by 45 degrees
+plt.show()
+
+```  
+![selfgraph](image-57.png)  
+
+- 2) Displaying the graph that compares the average value of a category against a particular category:  
+
+We make a panda series that groups the `df['Manufacturer']` column with values equal to the average of the "CPU Frequency" of each respective category from the `df['CPU_frequency']` column.  
+```python
+df_grouped=df.groupby('Manufacturer')['CPU_frequency'].mean()
+plt.figure(figsize=(10,5)) #Predefines the plot size to width 10 and height 5
+plt.bar(df_grouped.index, df_grouped.values, color='greenyellow', width=0.6)
+plt.ylabel("Average CPU Frequency (GHz)")
+plt.title("Average CPU frequency vs Manufacturer")
+plt.xticks(rotation=45)
+
+```
+![compare](image-58.png)
