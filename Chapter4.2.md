@@ -57,14 +57,30 @@ There can be other reasons than noise if the difference is really big in many ca
    `from sklearn.linear_model import LinearRegression`
    
 2) Create a Linear Regression object using the Constructor
+    This object is used for applying the Linear Regression operations. 
+    `lm = LinearRegression()` 
+
    
 5) Define the predictor and target variables:
-6) Fit the models with the parameters from the dataframes X and Y
-7) Obtain the prediction:
+    ```python
+    X = df_clean[['highway-mpg']]
+    Y = df_clean['price'] 
+    ```
+    Note that the X is passed as a 2D array containing the pandas series.
 
-The output is an array having same number of outputs as the input X.
+6) Fit the models with the parameters from the dataframes X and Y
+    `lm.fit(X,Y)`
+
+7) Obtain the prediction:
+    The prediction from the input X is the output array Yhat obtained with the `predict()` function.
+    `Yhat = lm.predict(X) `
+
+The output is an array having predicted outputs corresponding to the input X.
 
 Now, we can directly view the intercept and slope of the plot as:  
+`lm.intercept_` for the _b0_ factor, and  
+`lm.coef_` for the _b1_ factor.
+![lm](image-70.png)
 
-Using these values, the equation formed is: 
+Using these values, the equation formed is:  
 **Price= 38423.31 - 821.73 * highway-mpg**
