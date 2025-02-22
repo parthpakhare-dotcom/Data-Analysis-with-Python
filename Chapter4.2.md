@@ -1,0 +1,55 @@
+# 🌒 Linear Regression and Multiple Linear Regression: 
+
+## Introduction:
+1) Linear regression will refer to one independent variable to make a predication.  
+    `indepemdent variable x<sub>i</sub>` ⏭️ **Linear Regression** ⏭️ `prediction`
+   
+2) Multpile Regression will refer to multiple independent variables to make a prediction.  
+    `multiple independent variables`     ⏭️ **Multiple Regression** ⏭️ `prediction`
+   `x<sub>1</sub>,...., x<sub>d</sub>`
+
+## Simple Linear Regression (SLR):
+This is a method of understanding the relationship bbetween the two variables:  
+- The predictor (independent) variable - x
+- The target (target) variable - y
+We show the linear relationship between these two using the equation:  
+          `y= b<sub>0</sub> + b<sub>1</sub>x`
+  where,
+  b<sub>0</sub> => **the intercept** and,
+  b<sub>1</sub> => **the slope**  
+Finding these values itself requires a lot of maths but finding them is necessary to form the model; we will do that using the pre-defined modules.
+
+Steps for module development using SLR:  
+### Prediction: 
+To figure out the cost of a car, if we have the linear relationship equation between the variables, we can formulate the model to determine the price. Let the known variable be `highway-mpg`.  
+Eg: If the eqn between them is as:  
+`y = 38423 - 821(x)`,  
+if the known `highway-mpg` is "20", the price will be:  
+`y = 38423 - 821(20)` = `22003`
+
+![image](https://github.com/user-attachments/assets/219beb20-48d8-4e18-8554-5948e0d40b32)  
+To create a line prediction, we take the data points from our data set which are the known results from the effect of the first variable.  
+
+### Fit:
+These are the training points for our model. This is called as the process to `fit` in the model.
+![image](https://github.com/user-attachments/assets/ca40de9a-7a81-4501-880e-2285433a6dd2)  
+Taking these results,which we call as the `parameters`, we store them ( `(a1,b1)`, `(a2,b2)`, etc. ) each in each dataframes (pandas) or Numpy arrays as:  
+![image](https://github.com/user-attachments/assets/3925ffb1-c0bf-4379-8587-f4760b82e67f)  
+Each sample corresponds to each row in the arrays/ dataframes.
+
+### Noise:  
+Usually many other factors that are not even considered affect the target variable. Eg, in our case, the price of used car can be affected by how old it is.  
+This uncertainty is already considered by assuming a small random value will be added in the line. This is called as the noise. In theorotical terms, the noise is governed by the Gaussian (normal) distribution with mean 0 and some variance σ2^2.  
+As seen in the diagram below, as the value of noise increases (in negative or positive direction), it's probability of occuring reduces. The probability of no noise is actually the largest.  
+![image](https://github.com/user-attachments/assets/71862138-db33-4224-bce5-9c4b52eb5170)  
+
+Sometimes, large values are added or subtracted. But for the most part, the values added are near zero.  
+![image](https://github.com/user-attachments/assets/1afe9cf6-c3bc-45fa-9801-0cc66f6dfce1)  
+
+Thus, using the training points ( and ignoring the considerable noise) we now make a model represented by the equation:  
+![image](https://github.com/user-attachments/assets/81de7f5f-1861-4e46-835e-338fce997429)  
+Notice how we gave a hat on the y variable in this equation. That shows that the model, though can predict the targeted variable, isn't always perfect. 
+
+
+
+
