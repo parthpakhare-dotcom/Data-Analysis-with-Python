@@ -177,6 +177,8 @@ From the **Chi-Square Table**, for **\( df = 1 \)** and **\( \alpha = 0.05 \)**:
 
 The **critical value = 3.841**.
 
+(_Note that the critical table is seperately calculated and calculating directly with formulas is a bit long process; there are pyton methods for that. Here, we are just taking the intended first row of the chi square table to find the critical value at row 1 for significant value 0.05.
+
 ---
 
 ## **Step 6: Compare With Our Chi-Square Statistic**  
