@@ -53,6 +53,18 @@ Notice how we gave a hat on the y variable in this equation. That shows that the
 There can be other reasons than noise if the difference is really big in many casses.
 
 ### SLR in Python:
+1) Import linear_model from scikit-learn
+   `from sklearn.linear_model import LinearRegression`
+   
+2) Create a Linear Regression object using the Constructor
+   
+5) Define the predictor and target variables:
+6) Fit the models with the parameters from the dataframes X and Y
+7) Obtain the prediction:
 
+The output is an array having same number of outputs as the input X.
 
+Now, we can directly view the intercept and slope of the plot as:  
 
+Using these values, the equation formed is: 
+**Price= 38423.31 - 821.73 * highway-mpg**
