@@ -18,7 +18,7 @@
 
 
 
-## 🌟 [Chapter 5: Correla](Chapter3.5.md)
+## 🌟 [Chapter 5: Correlation](Chapter3.5.md)
 
 
 
@@ -26,4 +26,12 @@
 
 
 
-## 🌟 [Chapter 7: Chi-Square Test for Categorical Variables](Chapter3.6.md)
+## 🌟 [Chapter 7: Chi-Square Test for Categorical Variables](Chapter3.7.md)
+
+
+
+## 🌟 [Chapter 8: Lesson Summary](Chapter3.7.md)
+
+
+
+## 🌟 [Chapter 9: Additional information](Chapter3.7.md)
