@@ -22,7 +22,7 @@ This course teaches us how to use the Python libraries, namely, ***NumPy, Pandas
 - GroupBy
 - Correlation and other important statistics
 
-**Module 4: Model Development**:-
+[Module 4: Model Development](Module4.md):-
 - Linear Regression
 - Polynomial Regression and Pipelines
 - Measures for In-Sample Evaluation
