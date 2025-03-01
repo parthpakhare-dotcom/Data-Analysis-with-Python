@@ -1,28 +1,28 @@
 # 🌒 Linear Regression and Multiple Linear Regression: 
 
 ## Introduction:
-1) Linear regression will refer to one independent variable to make a predication.  
-    `indepemdent variable x<sub>i</sub>` ⏭️ **Linear Regression** ⏭️ `prediction`
+1) Linear regression refers to one independent variable helping to make a predication.  
+    `independent variable Xi,` ⏭️ **Linear Regression** ⏭️ `prediction`
    
-2) Multpile Regression will refer to multiple independent variables to make a prediction.  
+2) Multpile Regression will refer to multiple independent variables to help make a prediction.  
     `multiple independent variables`     ⏭️ **Multiple Regression** ⏭️ `prediction`
    `x<sub>1</sub>,...., x<sub>d</sub>`
 
 ## Simple Linear Regression (SLR):
-This is a method of understanding the relationship bbetween the two variables:  
+This is a method of understanding the relationship between the two variables:  
 - The predictor (independent) variable - x
-- The target (target) variable - y
+- The target (dependent) variable - y
 We show the linear relationship between these two using the equation:  
-          `y= b<sub>0</sub> + b<sub>1</sub>x`
+          `y= b0 + b1*x`
   where,
-  b<sub>0</sub> => **the intercept** and,
-  b<sub>1</sub> => **the slope**  
+  b0 => **the intercept** and,
+  b1 => **the slope**  
 Finding these values itself requires a lot of maths but finding them is necessary to form the model; we will do that using the pre-defined modules.
 
-Steps for module development using SLR:  
+Steps for model development using SLR:  
 ### Prediction: 
 To figure out the cost of a car, if we have the linear relationship equation between the variables, we can formulate the model to determine the price. Let the known variable be `highway-mpg`.  
-Eg: If the eqn between them is as:  
+Eg: Say, the eqn between them is as:  
 `y = 38423 - 821(x)`,  
 if the known `highway-mpg` is "20", the price will be:  
 `y = 38423 - 821(20)` = `22003`
@@ -39,7 +39,7 @@ Each sample corresponds to each row in the arrays/ dataframes.
 
 ### Noise:  
 Usually many other factors that are not even considered affect the target variable. Eg, in our case, the price of used car can be affected by how old it is.  
-This uncertainty is already considered by assuming a small random value will be added in the line. This is called as the noise. In theorotical terms, the noise is governed by the Gaussian (normal) distribution with mean 0 and some variance σ2^2.  
+This uncertainty is already considered by assuming a small random value will be added in the line. This is called as the noise. In theorotical terms, the noise is governed by the Gaussian (normal) distribution with mean 0 and some variance σ^2.  
 As seen in the diagram below, as the value of noise increases (in negative or positive direction), it's probability of occuring reduces. The probability of no noise is actually the largest.  
 ![image](https://github.com/user-attachments/assets/71862138-db33-4224-bce5-9c4b52eb5170)  
 
@@ -48,30 +48,31 @@ Sometimes, large values are added or subtracted. But for the most part, the valu
 
 Thus, using the training points ( and ignoring the considerable noise) we now make a model represented by the equation:  
 ![image](https://github.com/user-attachments/assets/81de7f5f-1861-4e46-835e-338fce997429)  
-Notice how we gave a hat on the y variable in this equation. That shows that the model, though can predict the targeted variable, isn't always perfect. I will add a regression plot here.  
+Notice how we gave a hat on the y variable in this equation. This shows that the model, though can predict the targeted variable, isn't always perfect. I have added a regression plot here.  
+![regplot](image-71.png)  
 
 There can be other reasons than noise if the difference is really big in many casses.
 
 ### SLR in Python:
-1) Import linear_model from scikit-learn
+1) Import linear_model from scikit-learn:  
    `from sklearn.linear_model import LinearRegression`
    
-2) Create a Linear Regression object using the Constructor
+2) Create a Linear Regression object using the Constructor:  
     This object is used for applying the Linear Regression operations. 
     `lm = LinearRegression()` 
 
    
-5) Define the predictor and target variables:
+5) Define the predictor and target variables:  
     ```python
     X = df_clean[['highway-mpg']]
     Y = df_clean['price'] 
     ```
     Note that the X is passed as a 2D array containing the pandas series.
 
-6) Fit the models with the parameters from the dataframes X and Y
+6) Fit the models with the parameters from the dataframes X and Y  
     `lm.fit(X,Y)`
 
-7) Obtain the prediction:
+7) Obtain the prediction:  
     The prediction from the input X is the output array Yhat obtained with the `predict()` function.
     `Yhat = lm.predict(X) `
 
