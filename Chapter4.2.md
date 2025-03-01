@@ -49,7 +49,7 @@ Sometimes, large values are added or subtracted. But for the most part, the valu
 Thus, using the training points ( and ignoring the considerable noise) we now make a model represented by the equation:  
 ![image](https://github.com/user-attachments/assets/81de7f5f-1861-4e46-835e-338fce997429)  
 Notice how we gave a hat on the y variable in this equation. This shows that the model, though can predict the targeted variable, isn't always perfect. I have added a regression plot here.  
-![regplot](image-71.png)  
+![regplot](image-71.png)   
 
 There can be other reasons than noise if the difference is really big in many casses.
 
