@@ -3,9 +3,10 @@
 Understanding the grapical representation of the model makes it more easier to find its nature. There are several ways to do the model evaluation with the graphs:  
 
 ### Regression plot
-[Read here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.4.md#5-regression-plots)
+[Read here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.4.md#5-regression-plots)  
 ### Residual plot
-[Read here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.4.md#5-regression-plots)
+[Read here](https://github.com/parthpakhare-dotcom/Data-Analysis-with-Python/blob/main/Chapter3.4.md#5-regression-plots)  
+
 ---
 
 The information on the two of the above is already given in [Chapter3.4.md](Chapter3.4.md). The links are provided.
